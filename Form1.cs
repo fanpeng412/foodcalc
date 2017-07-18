@@ -13,15 +13,38 @@ namespace foodcalc
 {
 	public partial class Form1 : Form
 	{
+		public Food[] foods;
+		
 		public class Food
 		{
-			String name;
-			int weight;
-			public Food() {  }
+			public String name;
+			public int weight;
+			public int a;
+			public int b;
+			public Food() {
+				this.name = null;
+				this.a = 1;
+				this.b = 2;
+			}
 
 			public  Food(String name)
 			{
 				this.name = name;
+			}
+
+			public void setName(String name)
+			{
+				this.name = name;
+			}
+
+			public void seta(int a)
+			{
+				this.a = a;
+			}
+
+			public void setb(int b)
+			{
+				this.b = b;
 			}
 		}
 
@@ -30,6 +53,35 @@ namespace foodcalc
 		public Form1()
 		{
 			InitializeComponent();
+			foods = new Food[100];
+			for(int i = 0; i < 99; i++)
+			{
+				foods[i] = new Food();
+				foods[i].name="橘子";
+				foods[i].seta(3);
+				foods[i].setb(4);
+			}
+			foods[99] = new Food();
+			foods[99].setName("苹果");
+			foods[99].seta(7);
+			foods[99].setb(8);
+			int count = 0;
+
+			Debug.Write("t1: " + new DateTime().Millisecond);
+			for(int j = 0; j<100; j++)
+			{
+				for (int i = 0; i < 100; i++)
+				{
+					if (foods[i].name == "苹果")
+					{
+						count += foods[i].a + foods[i].b;
+						break;
+					}
+				}
+			}
+			Debug.Write("count :" + count);
+			Debug.Write("t2 " + new DateTime().Millisecond);
+			
 		}
 
 		private void btn_day1_Click(object sender, EventArgs e)

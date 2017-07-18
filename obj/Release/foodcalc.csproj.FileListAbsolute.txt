@@ -1,0 +1,9 @@
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Release\foodcalc.exe.config
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Release\foodcalc.exe
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Release\foodcalc.pdb
+E:\workplace\foodcalc\foodcalc\foodcalc\obj\Release\foodcalc.csprojResolveAssemblyReference.cache
+E:\workplace\foodcalc\foodcalc\foodcalc\obj\Release\foodcalc.Form1.resources
+E:\workplace\foodcalc\foodcalc\foodcalc\obj\Release\foodcalc.Properties.Resources.resources
+E:\workplace\foodcalc\foodcalc\foodcalc\obj\Release\foodcalc.csproj.GenerateResource.Cache
+E:\workplace\foodcalc\foodcalc\foodcalc\obj\Release\foodcalc.exe
+E:\workplace\foodcalc\foodcalc\foodcalc\obj\Release\foodcalc.pdb
