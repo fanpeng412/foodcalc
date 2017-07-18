@@ -7,3 +7,11 @@ E:\workplace\foodcalc\foodcalc\foodcalc\obj\Release\foodcalc.Properties.Resource
 E:\workplace\foodcalc\foodcalc\foodcalc\obj\Release\foodcalc.csproj.GenerateResource.Cache
 E:\workplace\foodcalc\foodcalc\foodcalc\obj\Release\foodcalc.exe
 E:\workplace\foodcalc\foodcalc\foodcalc\obj\Release\foodcalc.pdb
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Release\Microsoft.Office.Interop.Excel.dll
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Release\office.dll
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Release\Microsoft.Vbe.Interop.dll
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Release\stdole.dll
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Release\Microsoft.Office.Interop.Excel.xml
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Release\office.xml
+E:\workplace\foodcalc\foodcalc\foodcalc\obj\Release\Interop.ExcelAdaptorLib.dll
+E:\workplace\foodcalc\foodcalc\foodcalc\obj\Release\foodcalc.csproj.ResolveComReference.cache

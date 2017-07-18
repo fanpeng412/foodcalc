@@ -24,3 +24,11 @@ D:\a_workplace\GitHub\foodcalc\foodcalc\bin\Debug\Microsoft.Vbe.Interop.dll
 D:\a_workplace\GitHub\foodcalc\foodcalc\bin\Debug\stdole.dll
 D:\a_workplace\GitHub\foodcalc\foodcalc\bin\Debug\Microsoft.Office.Interop.Excel.xml
 D:\a_workplace\GitHub\foodcalc\foodcalc\bin\Debug\office.xml
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Debug\office.dll
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Debug\stdole.dll
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\workplace\foodcalc\foodcalc\foodcalc\bin\Debug\office.xml
+E:\workplace\foodcalc\foodcalc\foodcalc\obj\Debug\Interop.ExcelAdaptorLib.dll
+E:\workplace\foodcalc\foodcalc\foodcalc\obj\Debug\foodcalc.csproj.ResolveComReference.cache
