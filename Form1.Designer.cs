@@ -28,8 +28,8 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("鸽子（带皮）");
-			System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("鸽子（不带皮）");
+			System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("鸽子（带皮）");
+			System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem("鸽子（不带皮）");
 			this.btn_day1 = new System.Windows.Forms.Button();
 			this.btn_next = new System.Windows.Forms.Button();
 			this.btn_calc = new System.Windows.Forms.Button();
@@ -42,6 +42,8 @@
 			this.textBox_num = new System.Windows.Forms.TextBox();
 			this.btn_day3 = new System.Windows.Forms.Button();
 			this.dataGridView1 = new System.Windows.Forms.DataGridView();
+			this.DataGridcolumName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.DataGridColumWeight = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.button1 = new System.Windows.Forms.Button();
@@ -50,12 +52,10 @@
 			this.button3 = new System.Windows.Forms.Button();
 			this.label3 = new System.Windows.Forms.Label();
 			this.dataGridView2 = new System.Windows.Forms.DataGridView();
-			this.label4 = new System.Windows.Forms.Label();
-			this.DataGridcolumName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.DataGridColumWeight = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.label4 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -107,8 +107,8 @@
             this.columnWeight,
             this.columnHeader1});
 			this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2});
+            listViewItem3,
+            listViewItem4});
 			this.listView1.Location = new System.Drawing.Point(49, 214);
 			this.listView1.Name = "listView1";
 			this.listView1.Size = new System.Drawing.Size(362, 315);
@@ -172,6 +172,16 @@
 			this.dataGridView1.TabIndex = 9;
 			this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
 			// 
+			// DataGridcolumName
+			// 
+			this.DataGridcolumName.HeaderText = "食物名称";
+			this.DataGridcolumName.Name = "DataGridcolumName";
+			// 
+			// DataGridColumWeight
+			// 
+			this.DataGridColumWeight.HeaderText = "重量(g)";
+			this.DataGridColumWeight.Name = "DataGridColumWeight";
+			// 
 			// textBox1
 			// 
 			this.textBox1.Location = new System.Drawing.Point(106, 174);
@@ -214,6 +224,7 @@
 			this.button2.TabIndex = 14;
 			this.button2.Text = "导入参考文件";
 			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.button2_Click);
 			// 
 			// button3
 			// 
@@ -223,6 +234,7 @@
 			this.button3.TabIndex = 15;
 			this.button3.Text = "导入计算文件";
 			this.button3.UseVisualStyleBackColor = true;
+			this.button3.Click += new System.EventHandler(this.button3_Click);
 			// 
 			// label3
 			// 
@@ -245,25 +257,6 @@
 			this.dataGridView2.Size = new System.Drawing.Size(367, 405);
 			this.dataGridView2.TabIndex = 19;
 			// 
-			// label4
-			// 
-			this.label4.AutoSize = true;
-			this.label4.Location = new System.Drawing.Point(544, 24);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(101, 12);
-			this.label4.TabIndex = 20;
-			this.label4.Text = "24小时膳食回顾法";
-			// 
-			// DataGridcolumName
-			// 
-			this.DataGridcolumName.HeaderText = "食物名称";
-			this.DataGridcolumName.Name = "DataGridcolumName";
-			// 
-			// DataGridColumWeight
-			// 
-			this.DataGridColumWeight.HeaderText = "重量(g)";
-			this.DataGridColumWeight.Name = "DataGridColumWeight";
-			// 
 			// dataGridViewTextBoxColumn1
 			// 
 			this.dataGridViewTextBoxColumn1.HeaderText = "食物名称";
@@ -280,6 +273,15 @@
 			this.Column1.Name = "Column1";
 			this.Column1.Width = 150;
 			// 
+			// label4
+			// 
+			this.label4.AutoSize = true;
+			this.label4.Location = new System.Drawing.Point(544, 24);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(101, 12);
+			this.label4.TabIndex = 20;
+			this.label4.Text = "24小时膳食回顾法";
+			// 
 			// label2
 			// 
 			this.label2.AutoSize = true;
@@ -293,7 +295,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1214, 558);
+			this.ClientSize = new System.Drawing.Size(324, 218);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.dataGridView2);
